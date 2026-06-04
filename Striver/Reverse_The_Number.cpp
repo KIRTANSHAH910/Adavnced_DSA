@@ -22,6 +22,10 @@ int main() {
     n = temp;
 
     for(int i = 0; i < count; i++){
+
+
+
+        
         arr[i] = n % 10;
         n = n / 10;
         cout << arr[i] << " ";
