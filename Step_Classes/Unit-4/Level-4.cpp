@@ -29,3 +29,9 @@ int main()
     }
     return 0;
 }
+/*Here we have Index as Days like 0, 1, 2, ...
+  and demand correspondingly so simply we need
+  to find the next greater element for each day 
+  and the first place where we finf that higher demand
+  we will mark the day index will subtract previous one's day index
+  from it.*/

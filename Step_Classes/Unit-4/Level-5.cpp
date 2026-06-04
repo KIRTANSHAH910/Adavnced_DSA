@@ -38,3 +38,9 @@ int main()
     cout << "Overwrites: " << overwrites;
     return 0;
 }
+/*We have a circular buffer of capacity c in which we are going to
+  add the elements we also have head, size and overwrites head will
+  update it's value once the buffer is full and then for each new value
+  head value will increase similarly size will mention the current 
+  correct value in buffer once size = C buffer is full it will start
+  overwriting the oldest elements.*/
